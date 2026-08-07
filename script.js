@@ -19,14 +19,18 @@ document.getElementById("btn1").addEventListener("click", function (){
 //
 // Dica: use .style.color = "blue"
 
-
+document.getElementById("btn2").addEventListener("click", function (){
+    document.getElementById("texto2").style.color = "blue"
+})
 
 // ---------- Exercicio 3 ----------
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
 
-
+document.getElementById("btn3").addEventListener("click", function (){
+    document.getElementById("texto3").style.display = ("none")
+})
 
 // ---------- Exercicio 4 ----------
 // Ao clicar no botao, adicione um novo <li> com o texto
@@ -78,5 +82,3 @@ document.getElementById("btn1").addEventListener("click", function (){
 // Ao clicar no botao, troque o src da #imagem10 para
 // "https://placecats.com/300/200"
 //
-// Dica: use .src = "nova-url"
-
